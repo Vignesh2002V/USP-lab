@@ -1,0 +1,365 @@
+msce@bmsce-Precision-T1700:~/vignesh/prgs$ script -a lab2
+Script started, file is lab2
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ gedit exp2
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cat exp2
+1.The contents in this file is used to demonstrate the commands
+2.Anil
+3.Vikram
+4.Azeem
+5.Shivin
+
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cat > dem2
+
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cat > dem2.txt
+this is the file created using cat cmd
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cat dem2.txt
+this is the file created using cat cmd
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp f1/dem2
+cp: missing destination file operand after 'f1/dem2'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp dem2/vignesh
+cp: missing destination file operand after 'dem2/vignesh'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp dem2
+cp: missing destination file operand after 'dem2'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp dem2.txt .
+cp: 'dem2.txt' and './dem2.txt' are the same file
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp dem2.txt/vicky
+cp: missing destination file operand after 'dem2.txt/vicky'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp dem2.txt
+cp: missing destination file operand after 'dem2.txt'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ 
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ 
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ .
+bash: .: filename argument required
+.: usage: . filename [arguments]
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp ch1 prgs
+cp: cannot stat 'ch1': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ mkdir f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp f1/prgs
+cp: missing destination file operand after 'f1/prgs'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp f1/f2
+cp: missing destination file operand after 'f1/f2'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ gedit f2.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp f2/vicky
+cp: missing destination file operand after 'f2/vicky'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp f2.txt/vicky
+cp: missing destination file operand after 'f2.txt/vicky'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp f2.txt/prgs
+cp: missing destination file operand after 'f2.txt/prgs'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp f2.txt/f3.txt
+cp: missing destination file operand after 'f2.txt/f3.txt'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp f2.txt f3.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cat f3.txt
+copy command
+
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cd 
+bmsce@bmsce-Precision-T1700:~$ mkdir lab
+bmsce@bmsce-Precision-T1700:~$ cd lab
+bmsce@bmsce-Precision-T1700:~/lab$ cp f2.txt .
+cp: cannot stat 'f2.txt': No such file or directory
+bmsce@bmsce-Precision-T1700:~/lab$ cd
+bmsce@bmsce-Precision-T1700:~$ cd vignesh
+bmsce@bmsce-Precision-T1700:~/vignesh$ cd prgs
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp f3.txt/lab
+cp: missing destination file operand after 'f3.txt/lab'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ ls
+f2.txt  f3.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ mkdir f2
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp f3.txt/f2
+cp: missing destination file operand after 'f3.txt/f2'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp f3.txt ../f2
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f2
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ ls
+f3.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ edit chap01.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ gedit chap01.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ gedit chap02.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ gedit fl3.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ ls
+chap01.txt  f3.txt  fl3.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ gedit chap02.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ ls
+chap01.txt  chap02.txt  f3.txt  fl3.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ cp chap* ../f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ ls f1
+ls: cannot access 'f1': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ ls f1
+ls: cannot access 'f1': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ ls f1
+ls: cannot access 'f1': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ ls 
+chap01.txt  chap02.txt  f2.txt  f3.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp -i ch4 until 
+cp: cannot stat 'ch4': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp -i chap01 until
+cp: cannot stat 'chap01': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ ls
+chap01.txt  chap02.txt  f2.txt  f3.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp -i chap01.txt  until
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cp -i ../prgs/chap* .
+cp: cannot stat '../prgs/chap*': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ ls
+dem2  dem2.txt  exp2  f1  f2  lab2  typescript
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -i ../f2/dem* .
+cp: cannot stat '../f2/dem*': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -i f2/dem*
+cp: missing destination file operand after 'f2/dem*'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -i chap01 untill
+cp: cannot stat 'chap01': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -i chap01 until
+cp: cannot stat 'chap01': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -i dem2 until
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -i ../f2/chap*
+cp: missing destination file operand after '../f2/chap*'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ ls
+dem2  dem2.txt  exp2  f1  f2  lab2  typescript  until
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -i ../f2/dem*
+cp: missing destination file operand after '../f2/dem*'
+Try 'cp --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -i ../f2/dem* .
+cp: cannot stat '../f2/dem*': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -i ../f1/dem* .
+cp: cannot stat '../f1/dem*': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd 
+bmsce@bmsce-Precision-T1700:~$ cd vignesh
+bmsce@bmsce-Precision-T1700:~/vignesh$ cp -i prgs until
+cp: -r not specified; omitting directory 'prgs'
+bmsce@bmsce-Precision-T1700:~/vignesh$ chap* f2
+chap*: command not found
+bmsce@bmsce-Precision-T1700:~/vignesh$ cd prgs
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ chap* f2
+chap*: command not found
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ chap*/f2
+bash: chap*/f2: No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ ../chap*/f2
+bash: ../chap*/f2: No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -i dem2.txt exp2
+cp: overwrite 'exp2'? y
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cat exp2
+this is the file created using cat cmd
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -i dem2.txt exp3
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp -R prgs new prg
+cp: target 'prg' is not a directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh$ mkdir prg
+bmsce@bmsce-Precision-T1700:~/vignesh$ cp -R prgs new prg
+cp: cannot stat 'new': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh$ cp -R prgs f2
+bmsce@bmsce-Precision-T1700:~/vignesh$ ls
+f2  prg  prgs
+bmsce@bmsce-Precision-T1700:~/vignesh$ cd prg
+bmsce@bmsce-Precision-T1700:~/vignesh/prg$ ls
+prgs
+bmsce@bmsce-Precision-T1700:~/vignesh/prg$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh$ cd prgs
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ ls
+dem2  dem2.txt  exp2  exp3  f1  f2  lab2  typescript  until
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ rm dem2.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ ls
+dem2  exp2  exp3  f1  f2  lab2  typescript  until
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ rm*
+
+Command 'rm*' not found, did you mean:
+
+  command 'rm' from deb coreutils (8.30-1ubuntu1)
+  command 'rme' from deb pvm-examples (3.4.6-2build1)
+  command 'rmm' from deb mailutils-mh (1:3.5-2build1)
+  command 'rmm' from deb mmh (0.4-2)
+  command 'rmm' from deb nmh (1.7.1-4)
+  command 'rmf' from deb mailutils-mh (1:3.5-2build1)
+  command 'rmf' from deb mmh (0.4-2)
+  command 'rmf' from deb nmh (1.7.1-4)
+  command 'rmt' from deb tar (1.30+dfsg-5)
+  command 'rmt' from deb dump (0.4b46-5build1)
+
+Try: sudo apt install <deb name>
+
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ rm *
+rm: cannot remove 'f1': Is a directory
+rm: cannot remove 'f2': Is a directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ ls
+chap01.txt  chap02.txt  f2.txt  f3.txt  until
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ rm *
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ ls
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ ls
+f1  f2
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f2
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ ls
+chap01.txt  chap02.txt  f3.txt  fl3.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ mv fl2.txt fl3.txt
+mv: cannot stat 'fl2.txt': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ mv  fl3.txt fl2.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ ls
+chap01.txt  chap02.txt  f3.txt  fl2.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ mv f2 f1
+mv: cannot stat 'f2': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ mv fl2.txt f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ mv fl2.txt f3.txt  f1
+mv: target 'f1' is not a directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ mv f3.txt f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ ls
+chap01.txt  chap02.txt  f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ cd ./.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ ls
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ mv prgs/prmg
+mv: missing destination file operand after 'prgs/prmg'
+Try 'mv --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh$ mv prgs/prmg
+mv: missing destination file operand after 'prgs/prmg'
+Try 'mv --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh$ mv f1/chap01.txt chap02.txt
+mv: cannot stat 'f1/chap01.txt': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh$ cd prgs
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ mv f1/chap01.txt chap02.txt
+mv: cannot stat 'f1/chap01.txt': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f2
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ mv f1/chap01.txt chap02.txt
+mv: cannot stat 'f1/chap01.txt': Not a directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ mv f1/chap01.txt new.txt
+mv: cannot stat 'f1/chap01.txt': Not a directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ 
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ mv chap01.txt chap02.txt f1
+mv: target 'f1' is not a directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ mv chap01.txt chap02.txt f1
+mv: cannot stat 'chap01.txt': No such file or directory
+mv: cannot stat 'chap02.txt': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ mkdir f3
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ mv chap01.txt chap02.txt f3
+mv: cannot stat 'chap01.txt': No such file or directory
+mv: cannot stat 'chap02.txt': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f2
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ ls
+chap01.txt  chap02.txt  f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ mv chap01.txt chap02.txt f3
+mv: target 'f3' is not a directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ cp f2/* f1
+cp: cannot stat 'f2/*': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ cp f1/* f2
+cp: cannot stat 'f1/*': Not a directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f2$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp f1/* f2
+cp: cannot stat 'f1/*': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ ls
+f1  f2  f3
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cp f2/* f3
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f3
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ ls
+chap01.txt  chap02.txt  f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ mv f3/f4
+mv: missing destination file operand after 'f3/f4'
+Try 'mv --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ mv f3/f4
+mv: missing destination file operand after 'f3/f4'
+Try 'mv --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ mv f4/f3
+mv: missing destination file operand after 'f4/f3'
+Try 'mv --help' for more information.
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ mv f4 f3
+mv: cannot stat 'f4': No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ ls
+f1  f2  f3
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ mv f2 f6
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ ls
+f1  f3  f6
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ file f2/dem2.txt
+f2/dem2.txt: cannot open `f2/dem2.txt' (No such file or directory)
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f2
+bash: cd: f2: No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f6
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f6$ ls
+chap01.txt  chap02.txt  f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f6$ file f2/f1.txt
+f2/f1.txt: cannot open `f2/f1.txt' (No such file or directory)
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f6$ file f2/chap01.c
+f2/chap01.c: cannot open `f2/chap01.c' (No such file or directory)
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f6$ file f3/chap01.c
+f3/chap01.c: cannot open `f3/chap01.c' (No such file or directory)
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f6$ file f6/chap01.c
+f6/chap01.c: cannot open `f6/chap01.c' (No such file or directory)
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f6$ CD ..
+CD: command not found
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f6$ CD F1
+CD: command not found
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f6$ cd f1
+bash: cd: f1: Not a directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f6$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ ls
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f3
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ ls
+chap01.txt  chap02.txt  f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ file f3/chap01.c
+f3/chap01.c: cannot open `f3/chap01.c' (No such file or directory)
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ file f3/chap01.docx
+f3/chap01.docx: cannot open `f3/chap01.docx' (No such file or directory)
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ file chap01
+chap01: cannot open `chap01' (No such file or directory)
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ ls
+chap01.txt  chap02.txt  f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ file chap01.txt
+chap01.txt: empty
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ file chap02
+chap02: cannot open `chap02' (No such file or directory)
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ file chap02.txt
+chap02.txt: empty
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ cat chap01
+cat: chap01: No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ cat chap01.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ ls
+f1  f3  f6
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ ls
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cd f3
+bash: cd: f3: No such file or directory
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f1$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd f3
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ ls
+chap01.txt  chap02.txt  f1
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs/f3$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ cd ..
+bmsce@bmsce-Precision-T1700:~/vignesh$ ls
+f2  prg  prgs
+bmsce@bmsce-Precision-T1700:~/vignesh$ cd prg
+bmsce@bmsce-Precision-T1700:~/vignesh/prg$ ls
+prgs
+bmsce@bmsce-Precision-T1700:~/vignesh/prg$ gedit dem2.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prg$ wc -l dem2.txt
+2 dem2.txt
+bmsce@bmsce-Precision-T1700:~/vignesh/prg$ exit
+exit
+Script done, file is lab2
+bmsce@bmsce-Precision-T1700:~/vignesh/prgs$ 
+
+
